@@ -92,9 +92,9 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'gistandard',
-        'HOST': 'mysql',
-        'USER': 'ddadmin',
-        'PASSWORD': '1234@abcd.com',
+        'HOST': '192.168.0.151',
+        'USER': 'root',
+        'PASSWORD': 'root',
         'PORT': '3306'
     }
 }
@@ -165,11 +165,10 @@ SESSION_COOKIE_AGE = 60 * 20
 SESSION_EXPIRE_AT_BROWSER_CLOSE = True
 SESSION_SAVE_EVERY_REQUEST = True
 
-# mail server
-EMAIL_HOST = "mail.sandbox.com"
-EMAIL_PORT = 587
-EMAIL_HOST_USER = "test@sandbox.com"
-EMAIL_HOST_PASSWORD = "1234@abcd.com"
-EMAIL_USE_TLS = True
-EMAIL_FROM = "test@sandbox.com"
-
+# # mail server
+# EMAIL_HOST = ""
+# EMAIL_PORT = 587
+# EMAIL_HOST_USER = ""
+# EMAIL_HOST_PASSWORD = ""
+# EMAIL_USE_TLS = True
+# EMAIL_FROM = ""
